@@ -8,7 +8,7 @@ import (
 	"os"
 	"strconv"
 
-	pb "golang-bcrypt-service/golangbcryptservice"
+	pb "golang-grpc-bcrypt-service/golanggrpcbcryptservice"
 
 	"golang.org/x/crypto/bcrypt"
 	"google.golang.org/grpc"

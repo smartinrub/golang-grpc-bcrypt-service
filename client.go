@@ -2,7 +2,7 @@ package main
 
 import (
 	"context"
-	pb "golang-bcrypt-service/golangbcryptservice"
+	pb "golang-grpc-bcrypt-service/golanggrpcbcryptservice"
 	"log"
 
 	"google.golang.org/grpc"
