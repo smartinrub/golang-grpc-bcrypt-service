@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+message PasswordRequest {
+    string password = 1;
+}
+
+message PasswordHashedResponse {
+    string hash = 1;
+}
+
+service BCrypt {
+    rpc PostBCrypt(PasswordRequest) returns (PasswordHashedResponse){}
+}
